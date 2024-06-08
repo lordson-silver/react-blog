@@ -121,4 +121,7 @@ Feel free to explore the code, experiment with new features, and customize it ac
 
 I had fun building this.
 
-Lordson `+1`
+### License
+MIT License
+
+(c) Lordson Silver 
