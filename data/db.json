@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Silver's First Blog...",
+      "body": "lorem ipsum...",
+      "author": "silver",
+      "id": "1"
+    },
+    {
+      "title": "Silver's Second Blog...",
+      "body": "lorem ipsum...",
+      "author": "silver",
+      "id": "3"
+    },
+    {
+      "id": "0c4d",
+      "title": "Post title from POST Request",
+      "author": "silver",
+      "body": "This is the content of the blog...."
+    },
+    {
+      "id": "e416",
+      "title": "New Blog",
+      "body": "This is a new blog\nAfter soliciting the help of chatGPt to fix a typo in my e.preventDefault function.\n\nliterally the only thing holding me back all these while.\n\nDamn!",
+      "author": "silver"
+    }
+  ]
+}

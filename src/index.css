@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary: #4AA2D9;
+  --border: #B3D5F2;
+  --text: #592C1C;
+}
+
+/* base style */
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text);
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar h1 {
+  color: var(--primary);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  padding: 6px;
+  margin-left: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--primary);
+}
+
+.btn {
+  color: #fff;
+  border-radius: 8px;
+  background-color: var(--primary);
+}
+
+.btn:hover, .btn:active {
+  background-color: #fff;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog preview */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+/* blog details */
+.blog-details {
+  font-size: 20px;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  background: var(--primary);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+}
+
+/* create new blog form  */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+  display: block;
+}
+
+.create textarea {
+  height: 150px;
+}
+
+.create button, .not-found a {
+  background: var(--primary);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found p {
+  margin-bottom: 20px;
+}
